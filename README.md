@@ -159,6 +159,6 @@ To config i3 paste the content of [polybar init]](./polybar/config.ini)
 to ~/.config/polybar/config.ini
 
 and to correct load polybar at startup paste the content of [polybar launch](./polybar/launch_polibar.sh.sh)
-to ~/.config/launch_polibar.sh.sh
+to ~/.config/polybar/launch_polibar.sh.sh
 
 Happy coding!
