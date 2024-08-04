@@ -114,4 +114,51 @@ now open your ~/.bashrc or ~/.zshrc or ~/.profile  and add the following line
     eval `tmuxifier init -`
 ```
 
+## Configure i3 Tile management window
+
+### Install i3
+```bash
+    sudo apt install i3
+```
+
+Start i3:
+    Log out of your current session.
+    On the login screen, select i3 from the session menu.
+    Log back in.
+
+Initial Configuration:
+    The first time you log in, i3 will prompt you to create a configuration file. Follow the prompts to create it.
+
+Edit Configuration File:
+    The configuration file is located at ~/.config/i3/config. You can edit it with your favorite text editor to customize i3.
+
+
+
+Happy coding!
+
+
+## tips
+
+### using i3
+
+Set keyboard layout
+
+Copy the content from [i3 config](./i3/config) and paste it in the i3 config file of your system
+
+for setting up the background image you need to install feh
+```bash
+    sudo apt install feh
+```
+
+To have a nice bar you can install polybar
+```bash
+    sudo apt install polybar 
+```
+
+To config i3 paste the content of [polybar init]](./polybar/config.ini)
+to ~/.config/polybar/config.ini
+
+and to correct load polybar at startup paste the content of [polybar launch](./polybar/launch_polibar.sh.sh)
+to ~/.config/launch_polibar.sh.sh
+
 Happy coding!
