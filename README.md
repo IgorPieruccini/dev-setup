@@ -44,6 +44,11 @@ For telescope to work properly, you need to install ripgrep
 ```bash
     brew install neovim
 ```
+### ripgrep
+for telescope to work properly, you need to install ripgrep
+```bash
+    brew install ripgrep
+```
 
 ### Tmux
 ```bash
