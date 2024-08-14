@@ -9,6 +9,8 @@
    bl = "!f() { echo "Listing branches"; git branch -vva; }; f"
    # log pretty
    lp =  log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+   # diff between branches
+   ld = "!f() { git log \"$1\"...\"$2\" --graph --pretty='%cred%h%creset -%c(yellow)%d%creset %s %cgreen(%cr) %c(bold blue)<%an>%creset' --abbrev-commit; }; f"
    # push origin
    po = "!f() { git push --set-upstream origin $(git bn); }; f"
 
