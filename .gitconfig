@@ -1,0 +1,14 @@
+[user]
+	name = Igor Pieruccini
+	email = igorpieruccini@gmail.com
+
+[alias]
+   # branch name 
+   bn =  rev-parse --abbrev-ref HEAD
+   # branch list
+   bl = "!f() { echo "Listing branches"; git branch -vva; }; f"
+   # log pretty
+   lp =  log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+   # push origin
+   po = "!f() { git push --set-upstream origin $(git bn); }; f"
+

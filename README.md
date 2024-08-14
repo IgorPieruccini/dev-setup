@@ -29,6 +29,11 @@ Please follow the instruction given by the installation guide after run the comm
     brew install node
 ```
 
+## install NVM
+```bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+```
+
 ### reipgrep
 ```bash
     brew install ripgrep
@@ -114,6 +119,9 @@ now open your ~/.bashrc or ~/.zshrc or ~/.profile  and add the following line
     eval `tmuxifier init -`
 ```
 
+## Configure Git
+Paste the content of the file [gitconfig](./gitconfig) in your ~/.gitconfig file
+
 ## Configure i3 Tile management window
 
 ### Install i3
@@ -131,10 +139,6 @@ Initial Configuration:
 
 Edit Configuration File:
     The configuration file is located at ~/.config/i3/config. You can edit it with your favorite text editor to customize i3.
-
-
-
-Happy coding!
 
 
 ## tips
